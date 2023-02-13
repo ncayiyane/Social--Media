@@ -1,0 +1,106 @@
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#message{
+    border-radius: 0.5px solid grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+}
+#facebook:hover
+{
+    color:#0C44BB;
+    transition: .5s ease-in-out;
+}
+#twitter:hover{
+    color: #1C92E8;
+    transition: .5s ease-in-out;
+}
+#instagram:hover{
+    color: #ED552C;
+    transition: .5s ease-in-out;
+}
+li{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+li:hover{
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+ul{
+    list-style-type:none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 15px;
+}
+.socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+    background-color: rgba(255,255,255,05);
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1),0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+button{
+    width: 150px;
+    height: 70px;
+    color: rgba(0, 0, 150, 0.3);
+    letter-spacing: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 3px;
+    font-size: 9px;
+    z-index: 1;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+button:hover{
+    color:#CCFF99;
+    box-shadow: inset 0 4px 8px 0 rgba(0,0,0.7), 0 6px  20px 0 rgba(0,0,0,0.5)
+    transition: 3s ease-in-out
+}
+#follow{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    color:#33FF00;
+    background-color: black;
+}
+#follow:hover{
+    border-radius: 3px;
+}
